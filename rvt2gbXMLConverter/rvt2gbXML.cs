@@ -76,7 +76,6 @@ namespace rvt2gbXMLConverter
             File.Copy(inFile, tmpRvtFile);
 
             ProcessStartInfo startInfo = new ProcessStartInfo();
-            startInfo.WorkingDirectory = journalPath;
             startInfo.FileName = this.revitPath + @"\Revit.exe";
             startInfo.Arguments = journal + " /nosplash";
             process = Process.Start(startInfo);
