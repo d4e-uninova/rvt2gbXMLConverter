@@ -133,7 +133,7 @@ namespace rvt2gbXMLConverter
             Process[] processes;
             try
             {
-                string[] journals = new string[] { "rvt2gbXML.txt" };
+                string[] journals = new string[] { "rvt2gbXML.txt" , "rvt2gbXMLNoPopUp.txt"};
 
                 processes = Process.GetProcessesByName("Revit");
                 for (var i = 0; i < processes.Length; i++)

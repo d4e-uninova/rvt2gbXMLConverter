@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Journals\rvt2gbXML.txt" />
+    <Content Include="Journals\rvt2gbXMLNoPopUp.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
