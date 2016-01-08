@@ -47,7 +47,7 @@ namespace rvt2gbXMLConverter
             {
                 outFile = outFile + "\\" + Path.ChangeExtension(Path.GetFileName(inFile), "xml");
             }
-            string appPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            string appPath = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData);
             string journalPath = appPath + @"\Autodesk\Revit\Autodesk Revit 2015\Journals";
             string tmpRvtFile = appPath + @"\rvt2gbXML\in.rvt";
             string tmpXmlFile = appPath + @"\rvt2gbXML\out.xml";
